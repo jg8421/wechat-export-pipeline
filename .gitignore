@@ -1,0 +1,29 @@
+# data / secrets - NEVER commit
+*.db
+*.db-wal
+*.db-shm
+*.silk
+*.wav
+*.dat
+.wechat_exp_config.json
+*_key*.json
+*.keys
+
+# exports
+out/
+backup/
+deliverables/
+_analysis/
+chunks/
+_parts/
+_merged/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# os
+Thumbs.db
+.DS_Store

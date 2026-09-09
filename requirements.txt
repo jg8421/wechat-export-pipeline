@@ -1,0 +1,4 @@
+# core
+zstandard>=0.22        # message_content 解压
+faster-whisper>=1.0    # 语音转写（可选，仅语音步骤需要）
+pypdf>=4.0             # PDF 页数校验（可选）
